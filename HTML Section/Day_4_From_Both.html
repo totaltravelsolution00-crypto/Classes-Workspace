@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 Form Both</title>
+</head>
+<body>
+    <fieldset>
+        <legend><b> FILL UP FORM </b></legend>
+    <strong>
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text"  id="name" required placeholder="Enter Your Name">
+        <br><br>
+        <label for="Phone No">Phone No</label>
+        <input type="number" id="Phone No" required placeholder="Enter Your Phone Number">
+        <br><br>
+        <label for="Email">Email</label>
+        <input type="email" required id="Email" placeholder="Enter your email">
+        <br><br>
+        <label for="DOB">Date Of Birth</label>
+        <input type="date" required id="DOB">
+        <br><br>    
+        <!-- Comment (ctrl+?) -->
+        <div>
+         <h3> Choose Only one Job Roll </h3>
+         <label for="Manager">Manager</label>
+         <input type="radio" name="Input" id="Manager">
+         <br><br>
+         <label for="Admin">Admin</label>
+         <input type="radio" id="Admin" name="Input">
+         <br><br>
+         <label for="Agent">Agent</label>
+         <input type="radio" id="Agent" name="Input">
+         <br><br>
+         <label for="Desk Manager">Desk Manager</label>
+         <input type="radio" id="Desk Manager" name="Input">
+        </div>
+        <br>
+        <div>
+            <h3> Choose you higher Education</h3>
+            <label for="8">VIII</label>
+            <input type="checkbox" id="8">
+            <br><br>
+            <label for="9">XI</label>
+            <input type="checkbox" id="9">
+            <br><br>
+            <label for="10">X</label>
+            <input type="checkbox" id="10">
+            <br><br>
+            <label for="11">XI</label>
+            <input type="checkbox" id="11">
+            <br><br>
+            <label for="12">XII</label>
+            <input type="checkbox" id="12">
+        </div>
+        <br>
+        <div>
+            <label for="bio">Bio</label>
+            <input type="text" id="bio" height="50" width="50">
+        </div>
+        <br>
+        <div>
+            <label for="option">Job Location</label>
+            <select name="" id="option">
+                <option selected disabled ="Select">Select</option>
+                <option value="Noida">Noida</option>
+                <option value="Ghaziabad">Ghaziabad</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Haryana">Haryana</option>
+            </select>
+        </div>
+        <br>
+        <div>  
+        <label for="U">Resume</label>
+        <input type="file" id="U">
+        <br><br>
+        <label for="T">Work Experience</label>
+        <input type="file" id="T">
+        <br><br>
+        <label for="add">Address Proof</label>
+        <input type="file" id="add">
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </strong>
+    </form>
+    </fieldset>
+</body>
+</html>

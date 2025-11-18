@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6 Project</title>
+    <link rel="stylesheet" href="../CSS Section/Registration_form.css">
+</head>
+<body>
+
+    <form>
+        <header class="header">
+            <div class="logo-section">
+                 <img src="https://yt3.googleusercontent.com/QdO4pMsqub1X8_P5rANYIwukO8yPeWcnoMYK0wapWrwUztFG6PEFcH8O35nnl1_hDJx5EWcdPOk=s160-c-k-c0x00ffffff-no-rj" alt="Logo" class="logo-img">
+                 <h1 class="brand-name">Dice Academy</h1>
+            </div>
+        </header>
+        <h2>Student Registration Form</h2>
+
+        <!-- Name -->
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" placeholder="Enter Your First Name..." required>
+        
+        <br><br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" placeholder="Enter Your Last Name..." required>
+
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <br><br>
+
+        <!-- Phone -->
+        <label for="phone">Phone Number</label>
+        <input type="number" id="phone" placeholder="Your Phone Number" required>
+
+        <br><br>
+
+        <!-- Course -->
+        <label for="course">Course</label>
+        <select id="course">
+            <option disabled selected>Select Your Course</option>
+            <option value="Art">Art</option>
+            <option value="Science">Science</option>
+            <option value="Commerce">Commerce</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender :</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+
+        <br><br>
+
+        <!-- Feedback -->
+        <label for="bio">Feedback</label>
+        <textarea id="bio" placeholder="Write feedback here..." required></textarea>
+
+        <br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+        <!-- Media -->
+        <div class="media-box">
+            <br>
+            <iframe width="650" height="400" src="https://www.youtube.com/embed/tQwjZm80F48?si=7CTOe_Vaqde45Xwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen " target="_blank" ></iframe>
+            <br><br>
+            <img src="https://images.unsplash.com/photo-1761838816945-021a4ebd67bc?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0"
+                 height="300" width="350" alt="Mountain">
+        </div>
+
+    </form>
+
+    <footer class="Main-footer">
+        Created by Uday  Pratap Singh &hearts; | &copy; 2025
+    </footer>
+
+</body>
+</html>

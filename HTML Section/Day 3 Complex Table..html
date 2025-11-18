@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 Complex Table</title>
+</head>
+<!-- DAY 6 Code css in html -->
+ <style>
+    /* yaha pai use hone wale sabhi tag ko Internal CSS bola jata hai  */
+    #tr{
+        color: brown;
+        background-color: aquamarine;
+    }
+    #table2{
+        border-color: blueviolet;
+        background-color: yellowgreen ;
+    }
+ </style>
+<body>
+    <table border="1" style="border-collapse: collapse;">
+        <thead>
+        <tr id="tr">
+            <th rowspan="4">Day</th>
+            <tr class="Seminar">
+             <th colspan="3">Seminar</th>
+            </tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th> End</th>
+        </tr>
+        </thead>
+            <tr>
+                <td rowspan="2">Moday</td>
+                <td rowspan="2">8am</td>
+                <td rowspan="2">5pm</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity DTD</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8am</td>
+                <td>11am</td>
+                <td rowspan="2">Xpath</td>
+            </tr>
+            <tr>
+                <td>11am</td>
+                <td>2pm</td>
+            </tr>
+            <tr>
+                <td>2pm</td>
+                <td>5pm</td>
+                <td>XSL Transformation</td>
+            </tr>
+            <tr>
+                <td>Wedneshday</td>
+                <td>8am</td>
+                <td>12pm</td>
+                <td>XSL Formating Object</td>
+            </tr>
+    </table>
+
+    <br>
+    
+    <h1 style="text-align: center;"> Time Table </h1>
+<table id="table2" border="1" style="border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th>Day Period</th>
+            <th>I <br> 9:30 - 10:20 </th>
+            <th>II<br> 10:20 - 11:10</th>
+            <th>III<br> 12:00 - 12:40 </th>
+            <th>12:00 - 12:40</th>
+            <th>IV<br> 12:40 - 1:30</th>
+            <th>V<br> 1:30 - 2:20</th>
+            <th>VI<br> 2:20 - 3:10</th>
+            <th>VII<br> 3:10 - 4:00</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td rowspan="5" style="text-align: center;"><b>Lunch</b></td>
+                <td colspan="3">lab</td>
+                <td>phy</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="3">Lab</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">Library</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">Lab</td>
+                <td>Mat</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">Lab</td>
+                <td>Mat</td>
+            </tr>
+        </tbody>
+    </thead>
+</table>
+</body>
+</html>
