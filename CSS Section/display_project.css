@@ -1,0 +1,27 @@
+.box{
+    display: flex;
+    height: 500px;
+    width: 350px;
+    border: 2px solid black;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.room{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img{
+    width: 160px;
+    border-radius: 15px;
+    
+}
+ .item{
+    text-align: center;
+ }
+ body{
+    display: flex;
+    justify-content: space-around;
+ }
