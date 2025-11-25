@@ -1,0 +1,66 @@
+body{
+    height: 100%;
+    width:100%;
+}
+
+#parent{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(3, 300px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.class{
+    background-color: rgb(188, 143, 143);
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.hero{
+    padding-left: 10px ;
+}
+
+.class:nth-child(4){
+    grid-column: span 2 ;
+}
+
+.class:nth-child(7){
+    grid-column: span 2;
+}
+
+.space{
+    background-color: blueviolet;
+    height: 240px;
+    width: 220px;
+    margin: 10px;
+}
+
+.class:nth-child(4) .space{
+    width:485px ;
+}
+
+.class:nth-child(7) .space{
+    width:485px ;
+}
+
+video{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.class:nth-child(7) .space .img {
+    height: 100%;
+    width: 100%;
+}

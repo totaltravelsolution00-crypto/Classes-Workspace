@@ -11,6 +11,7 @@
     background-color: aqua;
     align-content: center;
     text-align: center;
+    transition: all 1s ease-in-out;
 }
 
 .child:nth-child(2){
@@ -19,4 +20,28 @@
 
 .child:nth-child(3n){
     background-color: aquamarine;
+}
+
+.ball{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0px;
+    transition: all cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.ball:hover{
+    left: 100px;
+    transition: all cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.child:hover{
+    background-color: burlywood;
+    border-radius: 60%;
+
+    /* transition: background-color 0.5s ease-in-out;
+    transition: border-radius 0.5s ease-in-out; */
+
+    transition: all 0.5s cubic-bezier(0.46, 0.03, 0.52, 0.96)
 }
