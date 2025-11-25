@@ -1,0 +1,51 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+#parent{
+    display: grid;
+    grid-template-columns: repeat(3,125px);
+    grid-template-rows:repeat(7,100px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 200px; 
+}
+
+.child{
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.child:nth-child(3n){
+    background-color: aquamarine;
+}
+
+.ball{
+    background-color: blue;
+    top: 0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: fixed;
+    transition: all cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.ball:hover{
+    left: 100px;
+    transition: all cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.child:hover{
+    background-color: burlywood;
+    border-radius: 60%;
+
+    /* grid-column: span 2; */
+
+    /* transition: background-color 0.5s ease-in-out;
+    transition: border-radius 0.5s ease-in-out; */
+
+    transition: all 0.5s cubic-bezier(0.46, 0.03, 0.52, 0.96)
+}
