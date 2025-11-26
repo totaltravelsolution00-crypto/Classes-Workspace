@@ -1,15 +1,18 @@
-/* .load{
+/* simple loading Animation */
+
+.load{
     position: absolute;
     top: 40%;
     left: 50%;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border-top: 1px solid black;
+    border-top: 5px solid black;
     animation: spin 2s linear infinite;
 }
 
 @keyframes spin{
+
     0%{
         transform: rotate(0deg);
     }
@@ -17,4 +20,6 @@
     100%{
         transform: rotate(360deg);
     }
-} */
+}
+
+

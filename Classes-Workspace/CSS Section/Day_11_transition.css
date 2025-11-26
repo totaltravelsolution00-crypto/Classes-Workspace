@@ -43,7 +43,15 @@
 .rect{
     height: 150px;
     width: 150px;
-    background-color:red;
+    background-color:rgb(247, 76, 9);
+    animation: move 2s ease-in-out infinite;
+    margin: 10px;
+}
+
+.Squre{
+    height: 150px;
+    width: 150px;
+    background-color:rgb(214, 211, 208);
     animation: move 2s ease-in-out infinite;
     margin: 10px;
 }
@@ -51,28 +59,19 @@
 .circle{
     height: 150px;
     width: 150px;
-    background-color:red;
+    background-color:rgb(8, 179, 22);
     animation: move 2s ease-in-out infinite;
     margin: 10px;
 
 }
-
-.Squre{
-    height: 150px;
-    width: 150px;
-    background-color:red;
-    animation: move 2s ease-in-out infinite;
-    margin: 10px;
-}
-
 
 @keyframes move{
     0%{
         transform: translate(0px,0px);
     }
-
+    
     50%{
-        transform: translate(1200px,0px);
+        transform: translate(90vw,0vw);
         border-radius: 50%;
         box-shadow: rgb(75, 27, 122) 10px 15px 20px 10px;
     }
