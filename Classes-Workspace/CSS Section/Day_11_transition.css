@@ -1,0 +1,83 @@
+/* .rectangle{
+    position:absolute;
+    left: 50%;  
+    bottom: 50%;
+    height: 10%;
+    width: 10%;
+    background-color: aquamarine;
+        transition: all 0.5s cubic-bezier(0.84,-0.25, 0.89,-0.29);
+}
+
+.rectangle:active{
+    top: 30%;
+    left: 20%;
+    background-color:rgb(238, 8, 8);
+    transition: all 0.5s cubic-bezier(0.84,-0.25, 0.89,-0.29);
+    border-radius:50%;
+} */
+
+/* .rectangle{
+    position:absolute;
+    height: 20%;
+    width: 20%;
+    background-color: aquamarine;
+    transition: all 0.2s ease-in-out;
+}
+
+.rectangle:active{
+    transform: rotate(360deg) translate(250px,250px) ;
+    background-color:rgb(238, 8, 8);
+    transition: all 0.2s ease-in-out;
+    border-radius:50%;
+}
+
+.circle{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+} */
+
+/* Animation */
+
+.rect{
+    height: 150px;
+    width: 150px;
+    background-color:red;
+    animation: move 2s ease-in-out infinite;
+    margin: 10px;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    background-color:red;
+    animation: move 2s ease-in-out infinite;
+    margin: 10px;
+
+}
+
+.Squre{
+    height: 150px;
+    width: 150px;
+    background-color:red;
+    animation: move 2s ease-in-out infinite;
+    margin: 10px;
+}
+
+
+@keyframes move{
+    0%{
+        transform: translate(0px,0px);
+    }
+
+    50%{
+        transform: translate(1200px,0px);
+        border-radius: 50%;
+        box-shadow: rgb(75, 27, 122) 10px 15px 20px 10px;
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+}

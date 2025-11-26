@@ -66,4 +66,7 @@ img{
 .class:hover{
     background-color: cadetblue;
     transition: all 0.5s ease-in-out;
+    /* animation */
+    box-shadow: 50px 30px 60px 60px rgb(11, 45, 107);
+    transform: scale(1.1);
 }
