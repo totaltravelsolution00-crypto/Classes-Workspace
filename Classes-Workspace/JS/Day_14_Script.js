@@ -18,7 +18,7 @@
 // let a = 1;
 // while (a<=15){
 //     if(a%2 === 1)
-//     console.log(a);
+//     console.log(a);     
 //     ++a;
 // }
 
@@ -91,3 +91,42 @@
 //     num = Math.floor(num/10);//math.floor ka use ham isliye karte hai jise ham (.) ke baad aane wale value haat jaiga. 
 // }
 // console.log("total digit are:" +count);
+
+
+// Day 15
+
+// 1. Write a for loop to print number from 1 - 10.
+
+// for(let i=1; i<=10; i++){
+//     console.log(i);
+// }
+
+// // 2. Write a for loop print all even number from 2 to 20.
+
+// for(let a = 2; a<=20; a++){
+//     if(a%2 === 0)
+//         console.log(a);
+// }
+
+// 3. write a for loop to print the first 5 odd number.
+// let count = 0;
+// for(let b=1; b<=20; b++){
+// if(b%2 === 1)
+//     console.log(b); 
+//     count++;
+
+// if(count === 5){
+//     break;
+// }
+// }
+
+// 4. write a while loop to print number from 10 down to 1.
+
+// let c = 10;
+// while  (c<=1){
+//     console.log(c);
+//     c--;
+// }
+
+// 5. Write a while loop to print multiples of 5 up to 50.
+
