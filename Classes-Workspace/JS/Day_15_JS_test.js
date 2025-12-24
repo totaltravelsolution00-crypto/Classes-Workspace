@@ -119,6 +119,8 @@
 // 11. Write a loop to print all prime numbers between 1 and 50.
 // Solution:-
 
+// with the help of AI.
+
 // for (let num = 2; num <= 50; num++) {
 //     let isPrime = true; // Assume the number is prime
 
@@ -137,6 +139,8 @@
 
 // 12. Write a nested for loop to print a right-angle triangle pattern.
 //Solution:-
+
+// with the help of AI.
 
 // Number of rows in the triangle
 // let rows = 5;
