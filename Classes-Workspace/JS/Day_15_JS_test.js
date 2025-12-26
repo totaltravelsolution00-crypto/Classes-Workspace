@@ -22,7 +22,7 @@
 // for(a=1; a<=50; a++){   
 //     if( a%5 === 1){       // Ye odd numbers nahi deta, ye bas 5 se divide hone par remainder 1 wale numbers deta hai (1, 6, 11, 16…).
 //         console.log(a);
-//         count++;
+//         count++;       X-wrong
 //     }
 
 //     if( count === 5){
@@ -71,7 +71,7 @@
 
 // let a = Number ( prompt ("Enter a number"));
 
-// if (a < 0) {
+// if (a < 0) {                   // Not done by self
 //     console.log("Negative");
 // } else if (a => 0) {
 //     console.log("Positive");
@@ -129,11 +129,24 @@
 //         if (num % i === 0) {
 //             isPrime = false; // Not prime if divisible
 //             break; // No need to check further
-//         }
+//         }                    //not by self
 //     }
 
 //     if (isPrime) {
 //         console.log(num); // Print the prime number
+//     }
+// 
+
+// for(let i = 2; i<=50; i++){
+//     let isprime = true;
+//     for(let j = 2; j<i; j++){
+//         if(i%j === 0){
+//             isprime = false;
+//             break;
+//         }
+//     }
+//     if(isprime){
+//         console.log(i);
 //     }
 // }
 
@@ -148,13 +161,22 @@
 // // Outer loop for each row
 // for (let i = 1; i <= rows; i++) {
 //     let pattern = ""; // Initialize empty string for each row
-
+                        // not by slef
 //     // Inner loop for columns
 //     for (let j = 1; j <= i; j++) {
 //         pattern += "* "; // Add asterisk and space
 //     }
 
 //     console.log(pattern); // Print the row
+// }
+
+// let num = Number(prompt("Enter a number: "))
+// for(let i  = 1; i<=num; i++){
+//     let row = "";
+//     for(let j = 1; j<=i; j++){
+//         row += "* ";
+//     }
+//     console.log(row);
 // }
 
 
