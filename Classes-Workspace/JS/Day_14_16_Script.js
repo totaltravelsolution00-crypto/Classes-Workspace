@@ -355,6 +355,9 @@
 
 //# HOF [Higher order function].
 // Hof(Higher order function) wo function ha jo ke return kare ek function ye accept kare function apne parameter mai.
+// Jo function kisi function ko input me le
+// ya function ko return kare
+// usse Higher Order Function kehte hain
 
 // function num(){
 //     return function(){
